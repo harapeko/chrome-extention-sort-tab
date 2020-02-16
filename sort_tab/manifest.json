@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Sort Tab",
+  "description": "Sort Tab by opinion.",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_title": "tab sort"
+  },
+  "background": {
+    "scripts": ["event_page.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
